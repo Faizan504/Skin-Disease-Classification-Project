@@ -67,7 +67,7 @@ def show_introduction():
 
 # ---------- PAGE 2: DEMO ---------- #
 def load_model():
-    model = tf.keras.models.load_model("model/my_model.keras")
+    model = tf.keras.models.load_model(r"my_model.keras")
     return model
 
 def preprocess_image(image):
